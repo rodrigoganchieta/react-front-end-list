@@ -1,0 +1,41 @@
+.frontendList {
+  margin-top: 30px;
+}
+
+.frontendList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  transition: all 600ms;
+}
+
+.frontendList li:hover {
+  background: #0968c4;
+}
+
+.frontendList li .edit {
+  margin-right: 15px;
+  color: #0968c4;
+}
+
+.frontendList li .delete {
+  margin-right: 15px;
+  color: #e82e2f;
+}
+
+.frontendList li:hover .edit,
+.frontendList li:hover .delete {
+  color: #000;
+}
+.frontendList li .edit,
+.frontendList li .delete {
+  cursor: pointer;
+  transition: all 600ms;
+}
+
+.frontendList li span {
+  display: flex;
+  align-items: center;
+}
+

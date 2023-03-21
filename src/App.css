@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: rgb(8,67,124);
+  background: linear-gradient(180deg, rgba(8,67,124,1) 0%, rgba(9,104,196,1) 50%);
+}
+
+button {
+  cursor: pointer;
+}
