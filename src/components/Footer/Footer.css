@@ -15,6 +15,10 @@ footer a{
   color: #0968c4;
 }
 
+footer a:hover{
+  color: #e82e2f;
+}
+
 footer a img{
   width: 18px;
 }
